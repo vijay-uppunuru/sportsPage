@@ -11,9 +11,6 @@ body {
   color: #595959;
 }
 
-.width (@cols:1) {
-	width: (@cols * (@column + @gutter) - @gutter) / @em;
-}
 
 .buttons {
   width: 460px;
@@ -21,27 +18,6 @@ body {
   text-align: center;
 }
 
-button {
-  border: 0;
-  padding: 1em 1.5em;
-
-  color: #fff;
-  font-size: 1em;
-  font-family: "Arvo";
-  outline: 0;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: all .3s;
-  box-shadow: rgba(0,0,0,.09) 0px -3px 0px 0px inset;  
-  &:hover {
-    background-color: #333;
-  }
-  &.active, &:active {
-    background-color: #7ac8ff;
-  }
-}
-
- .info-box { display: none; }
 
 .boxes {
   padding-top: 2em;
